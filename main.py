@@ -6,7 +6,7 @@ from transformers import pipeline
 
 path = './distilbert-base-uncased-finetuned-sst-2-english'
 
-sentiment_analysis = pipeline("sentiment-analysis", model=path)
+sentiment_analysis = pipeline("sentiment-analysis", model='ProsusAI/finbert')
 
 """sentiment_analysis = pipeline(
     "sentiment-analysis",
